@@ -2,7 +2,7 @@
  * @Author: ei_code_bash && 3080152159@qq.com
  * @Date: 2025-11-08 14:32:04
  * @LastEditors: ei_code_bash && 3080152159@qq.com
- * @LastEditTime: 2025-11-08 20:26:06
+ * @LastEditTime: 2025-11-08 20:35:32
  * @FilePath: /how-to-eistjj/tools/logger.hpp
  * @Description: 我永远喜欢雪之下雪乃
  * 
@@ -135,15 +135,13 @@ namespace ne_tools
                 fd_path_ = std::string (result);
                 * ( get_ostream() ) << fd_path_ ;
                 ( get_ostream ( "log" ) )->flush();
-            return fd_path_.length();
-
-
+                return fd_path_.length();
             };
             
             
             
             
-        }
+        
 
         
 
