@@ -2,7 +2,7 @@
  * @Author: ei_code_bash && 3080152159@qq.com
  * @Date: 2025-11-08 14:32:04
  * @LastEditors: ei_code_bash && 3080152159@qq.com
- * @LastEditTime: 2025-11-08 20:18:30
+ * @LastEditTime: 2025-11-08 20:26:06
  * @FilePath: /how-to-eistjj/tools/logger.hpp
  * @Description: 我永远喜欢雪之下雪乃
  * 
@@ -107,6 +107,7 @@ namespace ne_tools
                 m_map_index_os_.insert(std::pair<std::string,std::ostream*>(prefix_name, &std::cout));
             
             }
+        };
 
             std::ostream* get_ostream( std::string prefix_name = std::string ("log"))
             {
@@ -121,7 +122,7 @@ namespace ne_tools
                     init("", prefix_name);
                     return get_ostream (prefix_name);
                 }
-            }
+            };
             int printf(const char * fmt, ...)
             {
                 va_list ap;
@@ -137,7 +138,7 @@ namespace ne_tools
             return fd_path_.length();
 
 
-            }
+            };
             
             
             
