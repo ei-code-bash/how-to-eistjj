@@ -1,0 +1,2 @@
+/home/ei/how-to-eistjj/build/CMakeFiles/edit_cache.dir
+/home/ei/how-to-eistjj/build/CMakeFiles/rebuild_cache.dir
